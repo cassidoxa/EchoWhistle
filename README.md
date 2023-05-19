@@ -56,3 +56,10 @@ Sorry.
 Very sorry.
 
 * __This only works on the provided patch__
+
+* __There's nothing on the moon or in the Underworld__
+
+This is a "test settings" seed. Obviously I saw the whale and pre-opened underground several times
+while testing but it never occurred to me anyone would go to the moon or the underworld until
+just now. Any non-sphere one key item location will lock the game in an infinite loop.
+
