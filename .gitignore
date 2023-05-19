@@ -1,0 +1,4 @@
+/target
+**/*.sfc
+notes
+build/
