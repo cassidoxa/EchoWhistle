@@ -3,17 +3,17 @@ use crate::{
     sni::{AddressSpace, MemoryMapping, MultiReadMemoryRequest, ReadMemoryRequest},
 };
 
-pub static MEMORY_MAPPING: MemoryMapping = MemoryMapping::LoRom;
-pub static SNES_META: u32 = 0x7E16C0;
-pub static SNES_SECRET_BUFFER: u32 = 0x7FA000;
-pub static SNES_SECRET_ID_BUFFER: u32 = 0x7FA020;
-pub static SNES_RX_COMMAND: u32 = 0x7FA040;
-pub static SNES_TX_COMMAND: u32 = 0x7FA060;
-pub static SNES_RX_ARGS: u32 = 0x7FA080;
-pub static SNES_TX_ARGS: u32 = 0x7FA0C0;
-pub static SNES_RX_STATUS: u32 = 0x7FA100;
-pub static SNES_TX_STATUS: u32 = 0x7FA120;
-pub static SNES_MARKER: u32 = 0x7FA140;
+pub const MEMORY_MAPPING: MemoryMapping = MemoryMapping::LoRom;
+pub const SNES_META: u32 = 0x7E16C0;
+pub const SNES_SECRET_BUFFER: u32 = 0x7FA000;
+pub const SNES_SECRET_ID_BUFFER: u32 = 0x7FA020;
+pub const SNES_RX_COMMAND: u32 = 0x7FA040;
+pub const SNES_TX_COMMAND: u32 = 0x7FA060;
+pub const SNES_RX_ARGS: u32 = 0x7FA080;
+pub const SNES_TX_ARGS: u32 = 0x7FA0C0;
+pub const SNES_RX_STATUS: u32 = 0x7FA100;
+pub const SNES_TX_STATUS: u32 = 0x7FA120;
+pub const SNES_MARKER: u32 = 0x7FA140;
 
 #[derive(Debug, Copy, Clone)]
 pub struct ItemRequestData {
